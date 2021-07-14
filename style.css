@@ -175,6 +175,7 @@ footer{
     .Bonus-marks .article-review{
         width: 100%;
         margin: 1%;
+        overflow-x: hidden;
     }
     .Bonus-marks .embaded-Youtube-video{
         width: 60%;
