@@ -205,7 +205,15 @@ footer{
     }
     .Bonus-marks{
         width: 100%;
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
+    }
+    .Bonus-marks .article-review{
+        width: 100%;
+        margin: 1%;
+    }
+    .Bonus-marks .embaded-Youtube-video{
+        width: 60%;
+        margin: 1%;
     }
     footer .footer-icon{
         width: 100%;
