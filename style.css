@@ -72,12 +72,12 @@ body{
     height: 500px;
     background-color: white;
     box-shadow: 5px 5px 50px gray;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 .player .Players-img img{
     width: 300px;
     height: 256px;
-    margin: 4.5%;
+    margin: 5%;
 }
 .player .players-name{
     margin-top: 2%;
