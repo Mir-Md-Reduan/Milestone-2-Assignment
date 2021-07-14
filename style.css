@@ -166,6 +166,9 @@ footer{
     .players .player{
         margin: 5%;
     }
+    .Bonus-marks{
+        flex-direction: column-reverse;
+    }
     footer .footer-icon{
         width: 100%;
     }
