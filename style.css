@@ -4,6 +4,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-weight: 700px;
+    margin: 0;
+    padding: 0;
 }
 /* Common and utilities end */
 
@@ -19,12 +21,12 @@ body{
     padding: 150px 0 150px;
 }
 .header-left-side{
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 4%;
 }
 .header-right-side{
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 4%;
+    margin-left: 4%;
 }
 .heading-title{
     font-size: 64px;
@@ -47,7 +49,7 @@ body{
     transition: transform 2s ease-in-out;
 }
 .right-arow{
-    margin-left: 10px;
+    margin-left: 1%;
 }
 .header-right-side img{
     width: 100%;
@@ -58,7 +60,7 @@ body{
 
  /* main section start  */
  .players{
-    margin: 70px;
+    margin: 5%;
      display: grid;
      grid-template-columns: repeat(3,1fr);
      grid-column-gap:30px;
@@ -70,21 +72,21 @@ body{
     height: 500px;
     background-color: white;
     box-shadow: 5px 5px 50px gray;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
 }
 .player .Players-img img{
     width: 300px;
     height: 256px;
-    margin: 15px 15px 0;
+    margin: 2% 2% 0;
 }
 .player .players-name{
-    margin-top: 16px;
-    margin-left: 15px;
+    margin-top: 2%;
+    margin-left: 2%;
     font-size:28px;
 }
 .players .players-description{
-    margin-top: 10px;
-    margin-left: 15px;
+    margin-top: 2%;
+    margin-left: 2%;
     font-weight: 400;
     font-size: 16px;
 }
@@ -92,7 +94,7 @@ body{
 
 /* footer style start */
 footer{
-    margin-top: 160px;
+    margin-top: 10%;
 }
 .footer-align{
     display: flex;
@@ -110,7 +112,7 @@ footer{
 }
 .icon{
     display: inline-block;
-    margin-right: 15px;
+    margin-right: 2%;
     font-size: 25px;
 }
 .footer-icon p{
@@ -121,15 +123,27 @@ footer{
 
 /* Media Quary style start  */
 
-/* Mobile devices */
-@media only screen and (max-width= 688px) {
+/* Mobile devices media quary start */
+@media only screen and (max-width:688px) {
     .container{
         width: 100%;
     }
-    header .container{
-        background-color: red;
+    .container{
+        flex-wrap: wrap;
     }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .players .player{
+        margin: 5%;
+    }
+    footer .footer-icon{
+        width: 100%;
+    }
+    .footer-align img{
+        width: 50%;
+    }
+/* Mobile devices media quary end */
+   
 
-    
-}
 /* Media Quary style end  */
