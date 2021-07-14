@@ -11,14 +11,13 @@ body{
 
 /* Header Style Start */
 .container{
-    width: 1440px;
-    height: 750px;
-    display: flex;
-    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 680px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     background-color:  #2D25A0;
     justify-content: center;
     align-items: center;
-    padding: 150px 0 150px;
 }
 .header-left-side{
     margin-left: 10%;
@@ -45,7 +44,7 @@ body{
     align-items: center;   
 }
 .header-icon:hover{
-    transform: scale(2) rotate(360deg) translate(150px);
+    transform: scale(1.2) rotate(360deg) translate(150px);
     transition: transform 2s ease-in-out;
 }
 .right-arow{
@@ -58,7 +57,7 @@ body{
 
 /* Header Style End */
 
- /* main section start  */
+ /*  section start  */
  .players{
     margin: 5%;
     display: grid;
@@ -90,7 +89,40 @@ body{
     font-weight: 400;
     font-size: 16px;
 }
- /* main section end  */
+ /*  section end  */
+
+ /* article and video start */
+.Bonus-marks{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 5%;
+}
+.article-review{
+    width: 560px;
+    height: 300px;
+    box-shadow: 5px 5px 50px gray;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    margin-right: 2%;
+}
+.article-review h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.article-review span{
+    color: orange;
+}
+.article-review p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+}
+.embaded-Youtube-video{
+    margin-left: 5%;
+}
+
+ /* article and video end */
 
 /* footer style start */
 footer{
@@ -126,11 +158,10 @@ footer{
 /* Mobile devices media quary start */
 @media only screen and (max-width: 688px){
     .container{
-        width: 100%;
-        flex-wrap: wrap;
+        grid-template-columns: repeat(1,1fr)
     }
     .players{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr)
     }
     .players .player{
         margin: 5%;
@@ -139,13 +170,13 @@ footer{
         width: 100%;
     }
     .footer-align img{
-        width: 50%;
+        width: 70%;
     }
 }
 /* Mobile devices media quary end */
    
 /* Big Mobiles and tabs media quary start */
-@media only screen and (min-width:689px) and (max-width:992px) {
+/* @media only screen and (min-width:689px) and (max-width:992px) {
     .container{
         width: 100%;
         flex-wrap: wrap;
@@ -163,7 +194,7 @@ footer{
     .footer-align img{
         width: 100%;
     }
-}
+} */
 
 /* Big Mobiles and tabs media quary end */
 /* Media Quary style end  */
