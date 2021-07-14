@@ -156,13 +156,14 @@ footer{
 /* Media Quary style start  */
 
 /* Mobile devices media quary start */
-@media only screen and (max-width: 688px){
+@media only screen and (max-width: 450px){
     .container{
-        width: 90%;
+        width: 100%;
         flex-wrap: wrap;
     }
     .players{
         grid-template-columns: repeat(1,1fr);
+        margin: 10% 0 10%;
     }
     .players .player{
         margin: 2.5%;
@@ -172,12 +173,12 @@ footer{
         flex-wrap: wrap; 
     }
     .Bonus-marks .article-review{
-        width: 50%;
-        margin: 5%;
+        width: 100%;
+        margin: 1%;
     }
     .Bonus-marks .embaded-Youtube-video{
-        width: 50%;
-        margin: 5%;
+        width: 100%;
+        margin: 1%;
     }
     footer .footer-icon{
         width: 100%;
@@ -190,7 +191,7 @@ footer{
 /* Mobile devices media quary end */
    
 /* Big Mobiles and tabs media quary start */
-/* @media only screen and (min-width:689px) and (max-width:992px) {
+@media only screen and (min-width:689px) and (max-width:992px) {
     .container{
         width: 100%;
         flex-wrap: wrap;
@@ -202,13 +203,17 @@ footer{
     .players .player{
         margin: 5%;
     }
+    .Bonus-marks{
+        width: 100%;
+        flex-wrap: wrap; 
+    }
     footer .footer-icon{
         width: 100%;
     }
     .footer-align img{
         width: 100%;
     }
-} */
+} 
 
 /* Big Mobiles and tabs media quary end */
 /* Media Quary style end  */
