@@ -43,7 +43,7 @@ body{
     align-items: center;   
 }
 .header-icon:hover{
-    transform: scale(1.2) rotate(360deg) translate(150px);
+    transform: scale(1.5) rotate(360deg) translate(150px);
     transition: transform 2s ease-in-out;
 }
 .right-arow{
@@ -174,14 +174,11 @@ footer{
         flex-wrap: wrap; 
     }
     .Bonus-marks .article-review{
-        width: 400px;
+
         margin: 3%;
         overflow-x: hidden;
         overflow-y: scroll;
     }
-    .Bonus-marks .embaded-Youtube-video{
-        width: 400px;
-        margin: 3%;
     }
     footer .footer-icon{
         width: 100%;
@@ -210,15 +207,6 @@ footer{
     .Bonus-marks{
         width: 100%;
         flex-wrap: wrap;
-    }
-    .Bonus-marks .article-review{
-        width: 400px;
-        margin: 1%;
-        margin-bottom: 5%;
-    }
-    .Bonus-marks .embaded-Youtube-video{
-        width: 400px;
-        margin: 1%;
     }
     footer .footer-icon{
         width: 100%;
