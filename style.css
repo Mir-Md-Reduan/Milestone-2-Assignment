@@ -159,6 +159,7 @@ footer{
 @media only screen and (max-width: 450px){
     .container{
         width: 100%;
+        height: 750px;
         flex-wrap: wrap;
     }
     .players{
@@ -174,12 +175,13 @@ footer{
     }
     .Bonus-marks .article-review{
         width: 400px;
-        margin: 1%;
+        margin: 3%;
         overflow-x: hidden;
+        overflow-y: scroll;
     }
     .Bonus-marks .embaded-Youtube-video{
         width: 400px;
-        margin: 1%;
+        margin: 3%;
     }
     footer .footer-icon{
         width: 100%;
