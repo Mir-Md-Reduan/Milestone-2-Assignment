@@ -167,7 +167,7 @@ footer{
         margin: 5%;
     }
     .Bonus-marks{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     footer .footer-icon{
         width: 100%;
